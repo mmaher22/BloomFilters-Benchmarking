@@ -44,11 +44,17 @@ The plots below shows logarithm of the number of false positives and false negat
 
 <img src="https://github.com/mmaher22/BloomFilters-Benchmarking/blob/master/Experiment/Results/FNs_VS_deletedItems.png" width=300>  
 <img src="https://github.com/mmaher22/BloomFilters-Benchmarking/blob/master/Experiment/Results/FPs_VS_deletedItems.png" width=300>  
-  - Ternary Filter has many indeterminable events which leads  to least FPR, and FNR.
-  - Standard Filter has almost similar FPR like other filters and it doesn’t support deletion. So, no False negatives.
-  - AutoScaling Filter has the largest FNR but by deleting more elements its FRP decreases. This can be tuned by having different decision threshold, and binarization values.
-  - Counting Filter has no FNR, and also least FPR by deleting more elements from the filter. However, the filter size is the largest.
-  - Deletable Filter has no false negatives and almost similar FPR as Standard Filter. The allowed deletions are smaller than other filters but it has less size than Counting Filter
+  - <b>Ternary Filter</b> has many indeterminable events which leads  to least FPR, and FNR.
+  
+  - <b>Standard Filter</b> has almost similar FPR like other filters and it doesn’t support deletion. So, no False negatives.
+  
+  - <b>AutoScaling Filter</b> has the largest FNR but by deleting more elements its FRP decreases. This can be tuned by having different decision threshold, and binarization values.
+  
+  - <b>Counting Filter</b> has no FNR, and also least FPR by deleting more elements from the filter. However, the filter size is the largest.
+  
+  - <b>Deletable Filter</b> has no false negatives and almost similar FPR as Standard Filter. The allowed deletions are smaller than other filters but it has less size than Counting Filter.
 
+### Summary:
+<img src="https://github.com/mmaher22/BloomFilters-Benchmarking/blob/master/Experiment/Results/summary.jpg" width=300>  
 
 ##### [Project Poster](https://github.com/mmaher22/BloomFilters-Benchmarking/blob/master/Project_Poster.pdf)
