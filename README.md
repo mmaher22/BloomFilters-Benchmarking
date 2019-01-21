@@ -13,7 +13,7 @@
 
 ### Repository Contents:
   > <i> /Experiments</i> 
-  Code of experiment held for comparison between different filters + Results of the experiemnt.
+  Code of experiment held for comparison between different filters + Results of the experiment.
   
   > <i> /Filters Implementation</i>
   Classes of implementation of filters.
