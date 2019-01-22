@@ -25,6 +25,7 @@
   One of the applications that can use Bloom Filters is the URL Shortening Applications. The process is to make a call to the server, which generates a fresh URL and sends it back. A bloom filter can be used to tell if this URL has already been generated earlier, and keep generating new ones till it returns false. As the filter is in memory, this tends to be cheaper than querying a database.
 <img src="https://github.com/mmaher22/BloomFilters-Benchmarking/blob/master/URLShortener_App/AppDiagram.png" width=300>  
   We have implemented a Web Application for URL shortening. You can try it in both cases of using Standard Bloom Filter or directly accessing the database and measure the time difference. Our application shows that we get faster performance using Std. Bloom Filter by around 14.6 times which will get much more by filling the database more with URLs. 
+  Our URL Shortener Can be found here: http://35.229.23.124/
   
 
 ### Experiment:
