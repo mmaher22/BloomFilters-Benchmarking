@@ -1,6 +1,6 @@
 backports.functools-lru-cache==1.5
 cycler==0.10.0
-Django==1.11.18
+Django==1.11.21
 kiwisolver==1.0.1
 matplotlib==2.2.3
 mpmath==1.1.0
